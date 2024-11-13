@@ -1,0 +1,38 @@
+.userScore {
+  margin: 20px 0px 0px 0px;
+}
+
+.header {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.slider {
+  padding: 0px 10px 0px 10px;
+}
+
+.minMaxValue {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -5px;
+}
+
+.minMaxValue p {
+  margin: 0px;
+  color: rgb(136, 136, 136);
+}
+
+.minMaxValue > p:nth-child(1) {
+  padding: 0px 0px 0px 5px;
+}
+
+.minMaxValue > p:nth-child(2) {
+  text-align: center;
+}
+
+.minMaxValue > p:nth-child(3) {
+  text-align: right;
+  padding: 0px 5px 0px 0px;
+}

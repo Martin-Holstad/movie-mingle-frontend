@@ -1,0 +1,31 @@
+.topBar {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  border: 1px green solid;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.button {
+  border-radius: 50px;
+  color: black;
+  padding: 4px 20px 4px 20px;
+  cursor: pointer;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow-x: scroll;
+  padding: 0px 10px 25px 0px;
+}
+
+.active {
+  background-color: rgb(29, 75, 37);
+  color: #fff;
+}

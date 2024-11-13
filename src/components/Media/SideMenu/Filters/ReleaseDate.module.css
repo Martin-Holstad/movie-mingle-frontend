@@ -1,0 +1,52 @@
+.header {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px 0px 0px;
+}
+
+.dateTo,
+.dateFrom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateTo p,
+.dateFrom p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.dateInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 190px;
+}
+
+.dateInput svg {
+  position: absolute;
+  right: 5px;
+  color: #5c5b5b;
+}
+
+.dateInput input {
+  height: 35px;
+  outline: 1px solid #ffff;
+  font-size: 16px;
+  width: 190px;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  padding: 0px 0px 0px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}

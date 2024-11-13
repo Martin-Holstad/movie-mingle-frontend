@@ -1,0 +1,14 @@
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+
+.cards > div {
+  width: 200px;
+}

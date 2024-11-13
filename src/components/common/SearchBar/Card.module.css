@@ -1,0 +1,40 @@
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  height: 50px;
+  background-color: #fff;
+}
+
+.card:hover {
+  background: rgb(238, 238, 238);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+}
+
+.image img {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.image svg {
+  font-size: 30px;
+  color: rgb(114, 114, 114);
+}

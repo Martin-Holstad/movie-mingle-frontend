@@ -1,0 +1,22 @@
+.header {
+  background-color: black;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header nav {
+  height: 70px;
+}
+
+.ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  margin: 0px;
+}
+
+.li {
+  list-style: none;
+}

@@ -1,0 +1,61 @@
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "movie tv people";
+  gap: 10px;
+  position: absolute;
+  top: 45px;
+  background-color: #fafafa;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 2;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+.menu li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.menu::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.menu > div:nth-child(1) {
+  grid-area: movie;
+}
+
+.menu > div:nth-child(2) {
+  grid-area: tv;
+}
+
+.menu > div:nth-child(3) {
+  grid-area: people;
+}
+
+@media only screen and (max-width: 700px) {
+  .menu {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "movie tv"
+      "people people";
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .menu {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "movie"
+      "tv"
+      "people";
+  }
+}

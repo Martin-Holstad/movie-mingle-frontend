@@ -1,0 +1,31 @@
+@import url("~@fontsource/source-sans-pro");
+
+body {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.App select,
+input {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dddddd;
+  border-radius: 10px;
+}

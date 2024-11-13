@@ -1,0 +1,60 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #90caf9 50%, rgb(4, 144, 179) 100%);
+  height: 200px;
+}
+
+.searchBar label {
+  display: block;
+  color: #ffff;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.inputContainer {
+  position: relative;
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inputContainer input {
+  height: 40px;
+  max-width: 1330px;
+  width: 100%;
+  border: none;
+  outline: 1px solid rgb(255, 255, 255);
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0px 0px 0px 40px;
+  box-sizing: border-box;
+}
+
+.inputContainer .searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: rgb(179, 177, 177);
+  font-size: 25px;
+}
+
+.clearButton {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(148, 148, 148);
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,59 @@
+.poster {
+  background: linear-gradient(to right, #000000, #1f1f1f);
+  padding: 20px;
+}
+
+.posterContent {
+  display: flex;
+  gap: 50px;
+  max-width: 1330px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.posterImage {
+  min-width: 300px;
+  width: 300px;
+  margin-top: 18px;
+}
+
+.posterImage img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.posterImage svg {
+  font-size: 250px;
+  color: rgb(100, 100, 100);
+}
+
+.h1Container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.h1Container h1 {
+  margin: 0px;
+}
+
+.genre {
+  display: flex;
+  gap: 10px;
+  list-style: circle;
+}
+
+.dateAndRuntime {
+  display: flex;
+  gap: 10px;
+}
+
+.overview h2 {
+  font-size: 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+.overview p {
+  margin: 0px;
+}

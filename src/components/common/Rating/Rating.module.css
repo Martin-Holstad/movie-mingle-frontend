@@ -1,0 +1,19 @@
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.maxRating {
+  font-size: 16px;
+}
+
+.ratingContainer svg {
+  color: rgb(255, 187, 0);
+  font-size: 25px;
+}
